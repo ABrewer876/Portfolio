@@ -6,10 +6,14 @@ This is an online portfolio for 2018, created by Alexander Brewer.
 
 Name block:
 ![alt text](https://github.com/ABrewer876/Portfolio/blob/master/Name-Block.jpg "Name block graphic")
+LinkedIn banner:
+![alt text](https://github.com/ABrewer876/Portfolio/blob/master/LinkedIn%20Banner.jpg "LinkedIn banner graphic")
 
-### Jekyll Themes
+### Web Production
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ABrewer876/Portfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+####Basic dynamic page:
+
+HTML:
 
 ### Support or Contact
 
