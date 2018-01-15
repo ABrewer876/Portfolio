@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Using DIVs</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="main">
+		    <h1>I'm using a DIV now!</h1>
+			<p>Now I can make dynamic web pages!</p>
+			<div class="navi">
+			    <div class="button">
+				    Pretend this is a button.
+				</div>
+				<div class="button">
+				    This too.
+				</div>
+				<div class="button">
+				    Almost like a navigation bar.
+				</div>
+			</div>
+			<div class="sub1">
+			    Look at me, I'm a DIV within a DIV!
+			</div>
+			<div class="sub2">
+			    Yet another DIV!
+				<br>I really am a DIVa!</br>
+			</div>
+			<div class="sub3">
+			    This DIV should be all right.
+			</div>
+			<div class="sub1">
+			    It's my class and I'll reuse it if I want to!
+			</div>
+			<p id="jsdemo">Hey, this is a little out of place...</p>
+			<button type="button" onclick='document.getElementById("jsdemo").innerHTML ="Oh hello there, Javascript."'>Click here</button>
+			<button type="button" onclick='differentWindow()'>Show me a different trick!</button>
+			
+			<script>
+			    function differentWindow() {
+				    var newWindow = window.open ("","What the-","width=500,height=800")
+					newWindow.document.write ("<html><body bgcolor='#000000' text='#ffcc99'>")
+					newWindow.document.write ("<P align='center'>Hey there!</P>")
+					newWindow.document.write ("<P align='center'>I bet you were expecting an alert.</P>")
+					newWindow.document.write ("<P align='center'>But you were mistaken!</P>")
+					newWindow.document.write ("<P align='center'>It's fun to mess with people's expectations, you know.</P>")
+					newWindow.document.write ("<P align='center'>Regards,<BR>~Javascript</P>")
+
+				}
+			</script>
+		</div>
+	</body>
+</html>
