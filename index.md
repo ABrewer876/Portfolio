@@ -5,7 +5,7 @@ This is an online portfolio for 2018, created by Alexander Brewer.
 ### Digital Graphics
 
 Name block:
-![alt text](L:\Documents\Computing\Digital Graphics Unit\Name-Block.jpg "Name block graphic")
+![alt text](https://github.com/ABrewer876/Portfolio/blob/master/Name-Block.jpg "Name block graphic")
 
 ### Jekyll Themes
 
